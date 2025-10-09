@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+
+# Docker
+*.log
+
+# Data and logs
+data/
+logs/
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables (sensitive!)
+.venv
+.env
+config/.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Playwright browsers (large files)
+/ms-playwright/
