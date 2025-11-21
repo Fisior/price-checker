@@ -28,7 +28,7 @@ class PriceHistory(Base):
     product = relationship("Product", back_populates="price_history")
 
 # Database setup
-DATABASE_URL = "sqlite:///data/price_checker.db"
+DATABASE_URL = "sqlite:////app/data/price_checker.db"
 
 def get_engine():
     """Create database engine"""
