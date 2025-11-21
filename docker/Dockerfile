@@ -23,6 +23,8 @@ RUN apt-get update && apt-get install -y \
 
 WORKDIR /app
 
+RUN mkdir -p /app/data /app/logs /app/config
+
 # Copy and install packages first (changes rarely)
 COPY requirements.txt .
 RUN pip install -r requirements.txt
